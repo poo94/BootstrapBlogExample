@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Blogger</title>
+  </head>
+
+  <body>
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Aroma</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Spices
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="basic.html">Basic</a>
+              <a class="dropdown-item" href="authentic.html">Authentic</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Explore More</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact Us</a>
+          </li>
+          <li class="nav-item">
+          <button type="button" id="time" class="btn btn-warning text-center" data-toggle="tooltip" data-placement="top" title="Flavorful Indian Spices">
+  
+</button>
+</li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+          
+        </form>
+      </div>
+    </nav>
+   
+<!-- Bread crumb -->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+    <li class="breadcrumb-item active><a href="#">Information</a></li>  
+  </ol>
+</nav>
+    
+
+
+
+<!-- Modal login-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="Password1">Password</label>
+    <input type="password" class="form-control" id="Password1">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- end -->
+  <!-- Modal sign up-->
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal1">Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="cexampleInputPassword1">confirm Password</label>
+    <input type="cpassword" class="form-control" id="cexampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- end -->
+
+
+  <!-- start body -->
+<div class="card-columns">
+  <div class="card">
+    <img src="images/blackpepper.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Black Pepper Powder</h5>
+      <p class="card-text">Dried ground pepper is one of the most common spices in European cuisine and has been known and prized for ages for its flavor and use as medicine for a number of health problems, especially as an antacid and for digestion.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Coriander Powder</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="images/cumin.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cumin Seeds</h5>
+      <p class="card-text">Cumin, which was also called “Sugandhan” (good smell)  in ancient times, had its popularity spread from Latin America to Africa and all over Asia. The cumin seeds are uniformly elliptical and deeply furrowed. They have a very distinctive bitter, yet warm flavor and aromatic smell. It is one of the mostly widely used spices in our day-to-day life. Cumin, along with coriander, forms a major ingredient of curry powder and other spice blends. It also has applications worldwide in sectors other than food, like beverages, liquors, medicines, toiletries and perfumery. Indian cumin has a good demand in international markets and it is exported in both seed form as well as powder form.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>The secret of happiness is variety, but the secret of variety, like the secret of all spices, is knowing when to use it. </p>
+      <footer class="blockquote-footer text-white">
+        <small>
+          Spice is life. ... <cite title="Source Title">..</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Garam Masala</h5>
+      <p class="card-text">The composition of garam masala differs regionally, with many different spices from India. The spices components of the mix are toasted, then ground together some of them are Black pepper, cloves, cinnamon, cumin seeds, coriander seeds, black and green cardamom are to name a few….</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/spice_1.jpeg" class="card-img-top" alt="...">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Ginger is well known as a digestive aid to relieve nausea and upset stomachs, as well helps to stimulate circulation and relieve cramping.</p>
+      
+        <small class="text-muted">Last updated 3 mins ago</small></p>
+      
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Turmeric Powder</h5>
+      <p class="card-text">Turmeric can protect the body from tissue destruction and joint inflammation and also preserve good nerve cell function” for better benefits try to cook with black pepper which releases curcumin from the spice.Turmeric is my favorite anti-cancer spices that I use every morning, but it does more than that it helps speed up gestion with it anti-inflammatory properties also known as curcumin.Scientists report that the Turmeric is as effective as ibuprofen in treating osteoarthritis.“Turmeric can protect the body from tissue destruction and joint inflammation and also preserve good nerve cell function” for better benefits try to cook with black pepper which releases curcumin from the spice.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+<!-- end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Blog.js"></script>
+  </body>
+</html>
